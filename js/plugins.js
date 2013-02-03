@@ -87,11 +87,11 @@ $(document).ready(function () {
 	 	
 	//Social Media Icons Hover Effect
 	$('.icons').mouseenter(function() {
-	 	$(this).removeClass('red');
-	 	$(this).addClass('blue');
+	 	$(this).removeClass('blue');
+	 	$(this).addClass('red');
 	 	$('.icons').mouseleave(function() {
-	 		$(this).addClass('red');
-	 		$(this).removeClass('blue');
+	 		$(this).addClass('blue');
+	 		$(this).removeClass('red');
 	 		});
 	 });
 	 
